@@ -25,12 +25,8 @@ public class SanPham {
 	private int donViBan;
 	private String thongTinBaoHanh;
 	private String thongTinChung;
-	// private String manHinh;
-	// private String heDieuHanh;
-	// private String cpu;
-	// private String ram;
+
 	private String thietKe;
-	// private String dungLuongPin;
 	
 	@Transient
 	@JsonIgnore
@@ -112,26 +108,6 @@ public class SanPham {
 		this.id = id;
 	}
 
-	// public void setHeDieuHanh(String heDieuHanh) {
-	// 	this.heDieuHanh = heDieuHanh;
-	// }
-
-	// public String getCpu() {
-	// 	return cpu;
-	// }
-
-	// public void setCpu(String cpu) {
-	// 	this.cpu = cpu;
-	// }
-
-	// public String getRam() {
-	// 	return ram;
-	// }
-
-	// public void setRam(String ram) {
-	// 	this.ram = ram;
-	// }
-
 	public String getThietKe() {
 		return thietKe;
 	}
@@ -140,13 +116,7 @@ public class SanPham {
 		this.thietKe = thietKe;
 	}
 
-	// public String getDungLuongPin() {
-	// 	return dungLuongPin;
-	// }
 
-	// public void setDungLuongPin(String dungLuongPin) {
-	// 	this.dungLuongPin = dungLuongPin;
-	// }
 
 	public DanhMuc getDanhMuc() {
 		return danhMuc;

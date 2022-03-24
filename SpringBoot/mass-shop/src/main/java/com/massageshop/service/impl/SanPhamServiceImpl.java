@@ -39,18 +39,14 @@ public class SanPhamServiceImpl implements SanPhamService {
 			sanPham.setId(Long.parseLong(dto.getId()));
 		}
 		sanPham.setTenSanPham(dto.getTenSanPham());
-		// sanPham.setCpu(dto.getCpu());
 		sanPham.setDanhMuc(danhMucRepo.findById(dto.getDanhMucId()).get());
 		sanPham.setHangSanXuat(hangSanXuatRepo.findById(dto.getNhaSXId()).get());
 		sanPham.setDonGia(Long.parseLong(dto.getDonGia()));
 		sanPham.setThietKe(dto.getThietKe());
 		sanPham.setThongTinBaoHanh(dto.getThongTinBaoHanh());
 		sanPham.setThongTinChung(dto.getThongTinChung());
-		// sanPham.setManHinh(dto.getManHinh());
-		// sanPham.setRam(dto.getRam());
-		// sanPham.setDungLuongPin(dto.getDungLuongPin());
+	
 		sanPham.setDonViKho(Integer.parseInt(dto.getDonViKho()));
-		// sanPham.setHeDieuHanh(dto.getHeDieuHanh());
 
 		return sanPham;
 	}

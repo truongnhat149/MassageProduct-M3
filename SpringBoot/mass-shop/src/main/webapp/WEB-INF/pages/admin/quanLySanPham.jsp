@@ -161,14 +161,7 @@
 
 							<div class="row">
 
-								<!-- <div class="form-group col-md-4">
-									<label for="inputPassword4">Màn hình</label> <input type="text"
-										class="form-control" name="manHinh" required="required">
-								</div> -->
-								<!-- <div class="form-group col-md-4">
-									<label for="inputEmail4">CPU</label> <input type="text"
-										class="form-control" name="cpu">
-								</div> -->
+						
 								<div class="form-group col-md-4">
 									<label for="inputPassword4">Thiết kế</label> <input type="text"
 										class="form-control" name="thietKe" required="required">
@@ -341,12 +334,7 @@
 												<p class="maSanPham"></p>
 												<p class="tenSanPham"></p>
 												<p class="hangSangXuat"></p>
-												<p class="cpu"></p>
-												<p class="ram"></p>
 												<p class="thietKe"></p>
-												<p class="heDieuHanh"></p>
-												<p class="manHinh"></p>
-												<p class="dungLuongPin"></p>
 												<p class="thongTinChung"></p>
 												<p class="baoHanh"></p>
 												<p class="donGia"></p>
