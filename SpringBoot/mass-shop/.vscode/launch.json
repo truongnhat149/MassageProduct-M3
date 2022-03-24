@@ -1,0 +1,37 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-massageShopApplication<massage-shop>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.massageshop.massageShopApplication",
+            "projectName": "massage-shop",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MassageShopApplication<laptop-shop>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.massageshop.MassageShopApplication",
+            "projectName": "laptop-shop",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MassageShopApplication<massage-shop>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.massageshop.MassageShopApplication",
+            "projectName": "massage-shop",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
