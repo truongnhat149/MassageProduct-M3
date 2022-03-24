@@ -34,19 +34,16 @@ public class SanPhamDtoValidator implements Validator{
 		if(Integer.parseInt(s.getDonGia()) < 0) {
 			errors.rejectValue("donGia", "error.donGia", "Đơn giá không được âm");
 		}
+
 		
+
 		if(Integer.parseInt(s.getDonViKho()) < 0) {
-			errors.rejectValue("donViKho", "error.donViKho", "Đơn giá không được âm");
+			errors.rejectValue("donViKho", "error.donViKho", "Đơn vị kho không được âm");
 		}
 		String tenDanhMuc = dmService.getDanhMucById(s.getDanhMucId()).getTenDanhMuc().toLowerCase();
 		
 		if(tenDanhMuc.contains("massage".toLowerCase())) {
-			// ValidationUtils.rejectIfEmpty(errors, "manHinh", "error.manHinh", "Màn hình không được trống");
-			// ValidationUtils.rejectIfEmpty(errors, "heDieuHanh", "error.heDieuHanh", "Hệ điều hành không được trống");
-			// ValidationUtils.rejectIfEmpty(errors, "cpu", "error.cpu", "CPU không được trống");
-			// ValidationUtils.rejectIfEmpty(errors, "ram", "error.ram", "Ram không được trống");
 			ValidationUtils.rejectIfEmpty(errors, "thietKe", "error.thietKe", "Thiết kế không được trống");
-			// ValidationUtils.rejectIfEmpty(errors, "dungLuongPin", "error.dungLuongPin", "Dung lượng pin được trống");			
 		}
 		
 	}

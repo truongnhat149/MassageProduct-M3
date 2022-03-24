@@ -38,8 +38,15 @@ public class NguoiDungValidator implements Validator {
 		// check địa chỉ email phù hợp hay không
 		Pattern pattern = Pattern.compile("^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$", Pattern.CASE_INSENSITIVE);
 
+		// check sdt
+		final String PHONE = "^0[1-9][0-9]{8,9}";
+		Pattern sdt = Pattern.compile(PHONE, Pattern.CASE_INSENSITIVE);
+
+		if (!(sdt.matcher(user.getSoDienThoai()).matches())) {
+			errors.rejectValue("soDienThoai", "error.soDienThoai", "Số điện thoại không phù hợp [vd: 08686868686] ");
+		}
 		if (!(pattern.matcher(user.getEmail()).matches())) {
-			errors.rejectValue("email", "error.email", "Địa chỉ email không phù hợp");
+			errors.rejectValue("email", "error.email", "Địa chỉ email không phù hợp [vd: code-gym@gym.com]");
 		}
 
 		// check địa chi email đã được dùng chưa

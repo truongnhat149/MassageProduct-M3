@@ -41,7 +41,7 @@
 									<img style="width: 225px; height: 230px" src="/massageshop/img/${sanpham.id}.png">
 									<h3 style="font-weight: bold; height: 43.2px">${sanpham.tenSanPham}</h3></a>
 									<h3 class="changeToVND">${sanpham.donGia}</h3>
-									<button onClick="addToCart(${sanpham.id})" class="btn btn-warning"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span> Giỏ hàng</button>
+									<button onClick="addToCart(${sanpham.id})" class="btn btn-warning"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span>Thêm Sản Phẩm</button>
 									<h3></h3>
 							</div>
          				</c:if>
@@ -52,7 +52,7 @@
 									<img style="width: 225px; height: 230px"src="/massageshop/img/${sanpham.id}.png">
 									<h3 style="font-weight: bold;height: 44px">${sanpham.tenSanPham}</h3></a>
 									<h3 class="changeToVND">${sanpham.donGia}</h3>
-									<button onClick="addToCart(${sanpham.id})" class="btn btn-warning"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span> Giỏ hàng</button>
+									<button onClick="addToCart(${sanpham.id})" class="btn btn-warning"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span>Thêm Sản Phẩm</button>
 									<h3></h3>
 							</div>
 								</div>
@@ -63,7 +63,7 @@
 									<img style="width: 225px; height: 230px" src="/massageshop/img/${sanpham.id}.png">
 									<h3 style="font-weight: bold;height: 44px">${sanpham.tenSanPham}</h3></a>
 									<h3 class="changeToVND">${sanpham.donGia}</h3>
-									<button onClick="addToCart(${sanpham.id})" class="btn btn-warning"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span> Giỏ hàng</button>
+									<button onClick="addToCart(${sanpham.id})" class="btn btn-warning"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span>Thêm Sản Phẩm</button>
 									<h3></h3>
 							</div>
 							</c:if>
@@ -76,7 +76,7 @@
 									<img style="width: 225px; height: 230px" src="/massageshop/img/${sanpham.id}.png">
 									<h3 style="font-weight: bold;height: 44px">${sanpham.tenSanPham}</h3></a>
 									<h3 class="changeToVND">${sanpham.donGia}</h3>
-									<button onClick="addToCart(${sanpham.id})" class="btn btn-warning"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span> Giỏ hàng</button>
+									<button onClick="addToCart(${sanpham.id})" class="btn btn-warning"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span>Thêm Sản Phẩm</button>
 									<h3></h3>
 							</div>
 							</div>

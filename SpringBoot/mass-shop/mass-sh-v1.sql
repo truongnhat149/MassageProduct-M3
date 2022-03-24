@@ -958,3 +958,7 @@ SET
     -- fjx bug số lượng
     ALTER TABLE `chi_tiet_don_hang` 
 CHANGE `so_luong` `soluong` INT(11) NULL DEFAULT NULL;
+
+-- fjx email
+ALTER TABLE nguoi_dung
+ADD UNIQUE (email);

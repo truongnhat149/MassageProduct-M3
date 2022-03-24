@@ -52,11 +52,11 @@
 			<div class="form-group">
 				<select class="form-control" name="donGia" id="price">
 					<option value="">Tất cả giá</option>
-					<option value="duoi-2-trieu">Dưới 2 triệu</option>
-					<option value="2-trieu-den-4-trieu">2 triệu đến 4 triệu</option>
-					<option value="4-trieu-den-6-trieu">4 triệu - 6 triệu</option>
-					<option value="6-trieu-den-10-trieu">6 triệu - 10 triệu</option>
-					<option value="tren-10-trieu">Trên 10 triệu</option>
+					<option value="duoi-2-trieu">Dưới 500 triệu</option>
+					<option value="2-trieu-den-4-trieu">200 triệu đến 400 triệu</option>
+					<option value="4-trieu-den-6-trieu">400 triệu - 600 triệu</option>
+					<option value="6-trieu-den-10-trieu">600 triệu - 1 tỷ</option>
+					<option value="tren-10-trieu">Trên 1 tỷ</option>
 				</select>
 			</div> 
 
@@ -73,7 +73,7 @@
 		</form> 
 
 		<div class="form-group form-inline"
-			style="float: right; margin-right: 10px; top: -33px; position: relative;"">
+			style="float: right; margin-right: 10px; top: -33px; position: relative;">
 			<input class="form-control" type="text" id="searchById"
 				placeholder="Nhập mã để tìm nhanh"> <span
 				class="glyphicon glyphicon-search" aria-hidden="true"
@@ -263,9 +263,12 @@
 									</select>
 								</div>
 								<div class="form-group col-md-6">
-									<label for="inputPassword4">Đơn giá</label> <input
+									<label for="inputPassword4">Đơn giá</label>
+									 	<input
 										type="number" class="form-control" name="donGia" min="0"
-										value="0" id="donGiaKhac">
+										value="0" id="donGiaKhac" oninput="this.value = 
+										!!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null"
+										>
 								</div>
 							</div>
 

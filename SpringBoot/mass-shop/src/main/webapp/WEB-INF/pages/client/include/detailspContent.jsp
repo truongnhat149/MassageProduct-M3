@@ -49,7 +49,7 @@
 						<h4 class="price" id ="blabla">Giá bán: <span id="priceConvert"></span></h4>
 						<div class="action">
 							<button class="add-to-cart btn btn-warning" type="button">
-							<span class="glyphicon glyphicon-shopping-cart pull-center"></span> Giỏ hàng</button>
+							<span class="glyphicon glyphicon-shopping-cart pull-center"></span>Thêm Sản Phẩm</button>
 						</div>
 					</div>
 				</div>

@@ -45,7 +45,7 @@ $(document).ready(function(){
 									'<img style="width: 300px; height: 238px" src="/massageshop/img/'+sanpham.id+'.png">' +
 									'<h3 style="font-weight: bold;">'+sanpham.tenSanPham+'</h3></a>' +
 									'<h3>'+accounting.formatMoney(sanpham.donGia)+' VND</h3>'+
-									'<button onClick="addToCart('+sanpham.id+')" class="btn btn-warning"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span> Giỏ hàng</button>'+
+									'<button onClick="addToCart('+sanpham.id+')" class="btn btn-warning"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span>Thêm Sản Phẩm</button>'+
 									'<h3></h3>'+
 									'</div>';
 						}else 
@@ -54,7 +54,7 @@ $(document).ready(function(){
 									'<img style="width: 300px; height: 238px" src="/massageshop/img/'+sanpham.id+'.png">' +
 									'<h3 style="font-weight: bold;">'+sanpham.tenSanPham+'</h3><a/>' +
 									'<h3>'+accounting.formatMoney(sanpham.donGia)+' VND</h3>'+
-									'<button onClick="addToCart('+sanpham.id+')" class="btn btn-warning"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span> Giỏ hàng</button>'+
+									'<button onClick="addToCart('+sanpham.id+')" class="btn btn-warning"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span>Thêm Sản Phẩm</button>'+
 									'<h3></h3>'+
 									'</div>';
 							if(i%4==3)
@@ -72,7 +72,7 @@ $(document).ready(function(){
 									'<img style="width: 300px; height: 238px" src="/massageshop/img/'+sanpham.id+'.png">' +
 									'<h3 style="font-weight: bold;">'+sanpham.tenSanPham+'</h3>></a>' +
 									'<h3>'+accounting.formatMoney(sanpham.donGia)+' VND</h3>'+
-									'<button onClick="addToCart('+sanpham.id+')" class="btn btn-warning"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span> Giỏ hàng</button>'+
+									'<button onClick="addToCart('+sanpham.id+')" class="btn btn-warning"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span>Thêm Sản Phẩm</button>'+
 									'<h3></h3>'+
 									'</div>';
 							content = section + content + endsection;
@@ -83,7 +83,7 @@ $(document).ready(function(){
 									'<img style="width: 300px; height: 238px" src="/massageshop/img/'+sanpham.id+'.png">' +
 									'<h3 style="font-weight: bold;">'+sanpham.tenSanPham+'</h3></a>' +
 									'<h3>'+accounting.formatMoney(sanpham.donGia)+' VND</h3>'+
-									'<button  onClick="addToCart('+sanpham.id+')" class="btn btn-warning"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span> Giỏ hàng</button>'+
+									'<button  onClick="addToCart('+sanpham.id+')" class="btn btn-warning"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span>Thêm Sản Phẩm</button>'+
 									'<h3></h3>'+
 									'</div>';
 							content = section + content + endsection;
