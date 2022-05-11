@@ -3,9 +3,7 @@
 ## Giới thiệu
 
 - Xây dựng website bán hàng [Massage SHOP]
-- Tận dụng kiến thức và kế thừa website frond-end từ module-1 link: https://bitly.com.vn/r4yu57
-- Slide báo cáo : https://bitly.com.vn/06vkr0
-- Backlog: https://bitly.com.vn/cfwck9
+- Tận dụng kiến thức và kế thừa website frond-end từ module-1 và module-2 
 
 ## Kiến thức áp dụng 
 - SQL 
